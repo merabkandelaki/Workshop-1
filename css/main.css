@@ -1,0 +1,92 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-image: url("../image/img_1.jpg");
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    column-gap: 200px;
+    margin-bottom: 100px;
+}
+
+.header-title {
+    width: 500px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.header-content {
+    width: 700px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.hobby {
+    display: flex;
+    column-gap: 200px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.hobby-title {
+    width: 500px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.hobby-content {
+    width: 700px;
+}
+
+.hobby-content p {
+    margin-bottom: 50px;
+}
+
+.hobby-content img {
+    width: 500px;
+}
+
+.interest {
+    display: flex;
+    align-items: center;
+    column-gap: 200px;
+    margin-bottom: 100px;
+}
+
+.interest-title {
+    width: 500px;
+}
+
+.interest-content {
+    width: 700px;
+}
+
+.interest-content p {
+    margin-bottom: 50px;
+}
+
+.interest-content img {
+    width: 500px;
+}
+
+.footer h2 {
+    text-align: center;
+    color: chartreuse;
+}
